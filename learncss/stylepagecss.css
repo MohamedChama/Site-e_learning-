@@ -1,0 +1,599 @@
+* {
+
+    margin: 0;
+}
+
+body {
+    background-color: rgb(187, 230, 215);
+}
+
+.all {
+    padding-left: 20%;
+    padding-right: 18%;
+    margin-top: -50px;
+
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 0px 0;
+}
+
+
+
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+/**/
+body.darkpagetheme .w3-codespan {
+    color: #ff9999;
+    background-color: rgba(222, 222, 222, 0.1);
+}
+
+.w3-codespan {
+    font-size: 105%;
+    background-color: rgba(222, 222, 222, 0.3);
+}
+
+.w3-codespan {
+    color: crimson;
+    background-color: #e7cdcda2;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 110%;
+}
+
+.w3-code,
+.w3-codespan {
+    font-family: Consolas, Menlo, "courier new", monospace;
+    font-size: 16px;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+user agent stylesheet code {
+    font-family: monospace;
+}
+
+user agent stylesheet li {
+    text-align: -webkit-match-parent;
+}
+
+user agent stylesheet ul {
+    list-style-type: disc;
+}
+
+body.darkpagetheme .w3-white {
+    background-color: #1d2a35 !important;
+    color: #ddd !important;
+}
+
+.w3-white,
+.w3-hover-white:hover {
+    color: #000 !important;
+    background-color: #fff !important;
+}
+
+.w3-light-grey,
+.w3-hover-light-grey:hover,
+.w3-light-gray,
+.w3-hover-light-gray:hover {
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+}
+
+body.darkpagetheme {
+
+    color: #ddd !important;
+}
+
+html,
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body.darkpagetheme .spes_tagname {
+    color: #ff9999;
+}
+
+.spes_tagname {
+    color: crimson;
+    /*----------------------------------------------------------------*/
+}
+
+
+
+
+.w3-note {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: -40px;
+    margin-right: -32px;
+
+}
+
+
+.w3-container,
+.w3-panel {
+    padding: 0.01em 16px;
+}
+
+
+.hh {
+    background-color: #FFF4A3;
+    color: #000;
+    padding: 10px;
+    text-indent: 10px;
+    margin-left: 0px;
+    text-decoration: solid;
+}
+
+.hhh {
+    background-color: #FFF4A3;
+    color: red;
+    text-decoration: underline;
+    font-size: 16px;
+    padding: 5px 0;
+    margin-left: -5px;
+    padding-right: 2px;
+    font-weight: bolder;
+}
+
+.xx {
+    background-color: #FFF4A3;
+    margin-left: 23px;
+}
+
+.tablehtml {
+    border-collapse: collapse;
+    width: 700px;
+
+
+}
+
+.tablehtml td,
+th {
+    border: 1.5px solid rgb(148, 137, 137);
+    padding: 0.5rem;
+    text-align: left;
+    text-align: center;
+
+}
+
+th {
+    background-color: rgb(228, 227, 227);
+}
+
+/*------------------*/
+
+.htmlexamplbtn {
+    margin-left: 3%;
+    margin-top: -60px;
+}
+
+.button3 {
+    background: #04AA6D;
+    border-radius: 999px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    padding: 9px 30px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    margin-left: -20px;
+    margin-top: -10px;
+}
+
+.button3:hover {
+    background: #1c8b62fd;
+}
+
+.htmlint {
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, serif;
+    padding-top: 60px;
+    text-shadow: 2px 1px 0px #fff, 5px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.intro {
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    padding-left: 20px;
+
+}
+
+.whatishtml {
+    font-size: 25px;
+    font-family: Georgia, serif;
+    padding-left: 20px;
+}
+
+
+
+ul li {
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-left: 30px;
+
+}
+
+.simplrdc {
+
+    font-size: 25px;
+    font-family: Georgia, serif;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.imgbtn {
+    margin-left: 20%;
+}
+
+.examlex {
+    font-size: 25px;
+    font-family: Georgia, serif;
+    padding-left: 20px;
+
+}
+
+.whathtmlelm {
+    font-size: 25px;
+    font-family: Georgia, serif;
+    padding-left: 20px;
+
+}
+
+.whathtmlelmcn {
+
+    font-family: Verdana, sans-serif;
+    padding-left: 50px;
+}
+
+.tablehtml {
+    margin-left: 50px;
+    margin-top: 20px
+}
+
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+
+
+}
+
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+
+.round {
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.round:hover {
+    background: rgba(255, 255, 255, .5);
+}
+
+.round:active {
+    position: relative;
+    right: 2px;
+}
+
+
+.lasstbtn {
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0, #000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk, Arial, sans-serif;
+    font-size: 17px;
+
+    line-height: 25px;
+
+    margin: 0 5px 50px 0;
+    overflow: visible;
+    padding: 12px 50px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-left: 500px
+}
+
+.lasstbtn:focus {
+    text-decoration: none;
+}
+
+.lasstbtn:hover {
+    text-decoration: none;
+}
+
+.lasstbtn:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+}
+
+.lasstbtn:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+}
+
+@media screen and (min-width:600px) and (max-width:994px) {
+    .htmlint {
+        font-size: 35px;
+
+    }
+
+    .intro {
+
+        font-size: 12px;
+
+    }
+
+    .whatishtml {
+        font-size: 20px;
+        font-weight: bold;
+
+
+    }
+
+    ul li {
+
+        font-size: 12px;
+
+        margin-left: 0px
+    }
+
+    .simplrdc {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .htmlexamplimg {
+        width: 380px;
+        margin-left: -64px;
+    }
+
+    .button3 {
+        margin-left: -84px;
+        margin-top: 7px;
+        padding: 4px 15px;
+    }
+
+    .examlex {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .whathtmlelm {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .whathtmlelmcn {
+        padding-left: 0px;
+    }
+
+    .whathtmlelmcn p {
+        font-size: 12px;
+
+        margin-left: 0px
+    }
+
+    .whathtmlelmcn span {
+        font-size: 18px;
+
+    }
+
+    .tablehtml {
+        margin-left: -127px;
+        margin-top: 20px;
+        width: 600px
+    }
+
+    .hh {
+        font-size: 10px;
+    }
+
+    .lasstbtn {
+        margin-left: 200px;
+        padding: 9px 16px;
+        font-size: 15px;
+    }
+
+    .hhh {
+
+        font-size: 11px;
+
+    }
+
+
+}
+
+@media screen and (max-width:600px) {
+    .htmlint {
+        font-size: 26px;
+
+    }
+
+    .intro {
+
+        font-size: 11px;
+        margin-left: -10px;
+
+    }
+
+    .whatishtml {
+        font-size: 13px;
+        font-weight: bold;
+        margin-left: -10px;
+
+
+    }
+
+    ul li {
+
+        font-size: 10px;
+
+        margin-left: -10px
+    }
+
+    .simplrdc {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .htmlexamplimg {
+        width: 360px;
+        margin-left: -112px;
+    }
+
+    .button3 {
+        margin-left: -126px;
+        margin-top: 12px;
+        padding: 2px 12px;
+    }
+
+    .examlex {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .whathtmlelm {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+
+    .whathtmlelmcn p {
+        font-size: 10px;
+
+        margin-left: -20px
+    }
+
+    .whathtmlelmcn span {
+        font-size: 15px;
+        margin-left: -10px
+    }
+
+
+    .tablehtml {
+        margin-left: -80px;
+        margin-top: 20px;
+        width: 380px;
+
+
+    }
+
+    .hh {
+        font-size: 10px;
+    }
+
+    .lasstbtn {
+        margin-left: 40%;
+        padding: 9px 16px;
+        font-size: 15px;
+    }
+
+    .hhh {
+
+        font-size: 10px;
+
+    }
+
+}
